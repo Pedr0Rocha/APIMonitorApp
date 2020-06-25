@@ -1,7 +1,7 @@
 package com.pedrorocha.apimonitor.data
 
 data class Endpoint(
-    private val name: String,
-    private val url: String,
-    private val method: Int
+    val name: String,
+    val url: String,
+    val method: Int
 )
