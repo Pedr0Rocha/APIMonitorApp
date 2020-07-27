@@ -7,6 +7,6 @@ import retrofit2.http.Url
 interface Webservice {
 
     @GET
-    fun get(@Url url: String): Call<String>;
+    fun get(@Url url: String): Call<Void>;
 
 }

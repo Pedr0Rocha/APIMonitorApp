@@ -26,6 +26,9 @@ class HomeFragment : Fragment() {
         homeViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
+
+        homeViewModel.makeRequest()
+
         return root
     }
 }
